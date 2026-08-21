@@ -1,19 +1,15 @@
-# Data and code availability statement
+# Data and code availability
 
-Replace all bracketed placeholders before submission or publication.
+All datasets used in this study were generated synthetically; no
+external datasets were used.
 
-## Suggested manuscript text
+The source code, exact configuration files, random seeds,
+dataset-split manifests, trained model weights, evaluation scripts,
+compact reference results, and a small example dataset are available
+at:
 
-The source code, configuration files, trained model weights, data-split
-manifests, and scripts required to reproduce the reported results are available
-in the versioned release at [GITHUB RELEASE URL], archived at [CODE DOI]. The
-generated reference sequences, per-read predictions, and complete dataset
-manifests are deposited at [DATASET DOI].
+https://github.com/YusenGuo4373/DNA-Blind-Recognition
 
-## If the full generated data cannot be released immediately
-
-The data analyzed in this study were generated synthetically. The generation
-code, exact configurations, encoder-instance provenance, independent test-data
-seeds, compact per-archive predictions, and reference metrics are available at
-[CODE DOI]. The complete generated datasets are available at [DATASET DOI OR
-REASONED ACCESS STATEMENT].
+The complete read-level datasets are not archived separately because
+they can be regenerated deterministically using the released code,
+configurations, and random seeds. 
