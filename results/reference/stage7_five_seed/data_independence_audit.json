@@ -1,0 +1,34 @@
+{
+  "within_stage7_cross_seed_overlap": {
+    "46|47": 0,
+    "46|48": 0,
+    "46|49": 0,
+    "46|50": 0,
+    "47|48": 0,
+    "47|49": 0,
+    "47|50": 0,
+    "48|49": 0,
+    "48|50": 0,
+    "49|50": 0
+  },
+  "within_stage7_cross_seed_zero": true,
+  "prior_saved_fasta_files_checked": 112,
+  "prior_saved_reference_hashes": 1115467,
+  "stage7_overlap_with_prior_saved_references": {
+    "46": 0,
+    "47": 0,
+    "48": 0,
+    "49": 0,
+    "50": 0
+  },
+  "stage7_prior_saved_overlap_zero": true,
+  "archive_overlap": 0,
+  "namespace_isolation": [
+    "stage7-test-seed-46",
+    "stage7-test-seed-47",
+    "stage7-test-seed-48",
+    "stage7-test-seed-49",
+    "stage7-test-seed-50"
+  ],
+  "limitation": "The supplied author checkpoint does not include its original training reference sequences; exact sequence comparison is possible only for locally reconstructable/saved datasets. Stage-7 uses new SHA256 namespaces and globally unique 384-nt references."
+}

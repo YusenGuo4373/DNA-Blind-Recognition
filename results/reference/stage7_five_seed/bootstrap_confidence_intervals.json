@@ -1,0 +1,47 @@
+{
+  "unit": "archive",
+  "method": "hierarchical stratified bootstrap: resample seeds, then archives within truth class",
+  "repetitions": 2000,
+  "intervals": {
+    "proxy_known_acceptance": {
+      "mean": 0.97893075,
+      "lower95": 0.9715,
+      "upper95": 0.986
+    },
+    "proxy_unknown_recall": {
+      "mean": 0.905103,
+      "lower95": 0.886,
+      "upper95": 0.923
+    },
+    "proxy_forced_known": {
+      "mean": 0.094897,
+      "lower95": 0.077,
+      "upper95": 0.114
+    },
+    "proxy_macro_f1_change": {
+      "mean": -0.015621177677168226,
+      "lower95": -0.022602709541354914,
+      "upper95": -0.008785146921240968
+    },
+    "three_state_unknown_risk_coverage": {
+      "mean": 0.905103,
+      "lower95": 0.886,
+      "upper95": 0.923
+    },
+    "three_state_known_uncertain": {
+      "mean": 0.024037000000000003,
+      "lower95": 0.0155,
+      "upper95": 0.034
+    },
+    "three_state_unknown_direct_known": {
+      "mean": 0.094897,
+      "lower95": 0.077,
+      "upper95": 0.114
+    },
+    "three_state_manual_review": {
+      "mean": 0.25052485714285716,
+      "lower95": 0.242,
+      "upper95": 0.25885714285714284
+    }
+  }
+}

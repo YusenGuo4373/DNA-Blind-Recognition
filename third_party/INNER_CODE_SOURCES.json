@@ -1,0 +1,18 @@
+{
+  "HEDGES": {
+    "repository": "https://github.com/whpress/hedges",
+    "commit": "86812c50494f524add217a2986ee885176ec644e",
+    "license": "MIT",
+    "adapter_sha256": "4d63f750bafb3138b481c11a663cdafd695e434b0067e956f3ed9488df2df92f",
+    "fixed_primers": false
+  },
+  "DNA-Aeon": {
+    "repository": "https://github.com/MW55/DNA-Aeon",
+    "commit": "74bf780fa786b1934fcd54feb6861233356eba00",
+    "snapshot_zip_sha256": "49f8401369d81891eb9dfb67db69ec1a41ce4d32a1dcc155056c7774d162286f",
+    "license": "MIT",
+    "abseil_commit": "ef799d337201e02688c6e07b0cac8912b86f505d",
+    "zippy_commit": "a838de8522f9051df0d1b202473bb6befe648702",
+    "adapter_sha256": "7e3afc8f49a2416b0a3a1857248072a889d0f2e47f4979298aab0881d32bbd48"
+  }
+}

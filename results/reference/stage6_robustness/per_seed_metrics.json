@@ -1,0 +1,2960 @@
+{
+  "43": {
+    "0.0": {
+      "fixed": {
+        "known_acceptance_rate": 0.965,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.035,
+        "known_type_acceptance": {
+          "BCH": 0.86,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.8416857735560651,
+        "known_type_macro_f1": 0.8106971153846154,
+        "known_type_macro_f1_change_from_closed": -0.03098865817144969,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.92,
+        "DNA_Aeon_unknown_recall": 0.9,
+        "combined_unknown_recall": 0.91,
+        "unknown_direct_known_rate": 0.09,
+        "unknown_misclassified_as_BCH_rate": 0.07,
+        "AUROC": 0.987,
+        "AUPR": 0.9781569239833218,
+        "FPR_at_95_TPR": 0.06,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            91,
+            7,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            7,
+            15,
+            28,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            50
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.99,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.01,
+        "known_type_acceptance": {
+          "BCH": 0.96,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.8416857735560651,
+        "known_type_macro_f1": 0.831479609032693,
+        "known_type_macro_f1_change_from_closed": -0.010206164523372085,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.8,
+        "DNA_Aeon_unknown_recall": 0.84,
+        "combined_unknown_recall": 0.82,
+        "unknown_direct_known_rate": 0.18,
+        "unknown_misclassified_as_BCH_rate": 0.15,
+        "AUROC": 0.987,
+        "AUPR": 0.9781569239833218,
+        "FPR_at_95_TPR": 0.06,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            82,
+            15,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            19,
+            29,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    },
+    "0.01": {
+      "fixed": {
+        "known_acceptance_rate": 0.97,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.03,
+        "known_type_acceptance": {
+          "BCH": 0.88,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.8285208540767784,
+        "known_type_macro_f1": 0.8016826923076923,
+        "known_type_macro_f1_change_from_closed": -0.026838161769086155,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.98,
+        "DNA_Aeon_unknown_recall": 0.86,
+        "combined_unknown_recall": 0.92,
+        "unknown_direct_known_rate": 0.08,
+        "unknown_misclassified_as_BCH_rate": 0.07,
+        "AUROC": 0.98965,
+        "AUPR": 0.9832570745278347,
+        "FPR_at_95_TPR": 0.05,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            92,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            6,
+            14,
+            30,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            50
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.99,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.01,
+        "known_type_acceptance": {
+          "BCH": 0.96,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.8285208540767784,
+        "known_type_macro_f1": 0.8246606334841629,
+        "known_type_macro_f1_change_from_closed": -0.003860220592615593,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.92,
+        "DNA_Aeon_unknown_recall": 0.82,
+        "combined_unknown_recall": 0.87,
+        "unknown_direct_known_rate": 0.13,
+        "unknown_misclassified_as_BCH_rate": 0.11,
+        "AUROC": 0.98965,
+        "AUPR": 0.9832570745278347,
+        "FPR_at_95_TPR": 0.05,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            87,
+            11,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            18,
+            30,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            50
+          ]
+        ]
+      }
+    },
+    "0.05": {
+      "fixed": {
+        "known_acceptance_rate": 0.98,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.02,
+        "known_type_acceptance": {
+          "BCH": 0.92,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.8335943157329806,
+        "known_type_macro_f1": 0.826841068821895,
+        "known_type_macro_f1_change_from_closed": -0.006753246911085586,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.98,
+        "DNA_Aeon_unknown_recall": 0.74,
+        "combined_unknown_recall": 0.86,
+        "unknown_direct_known_rate": 0.14,
+        "unknown_misclassified_as_BCH_rate": 0.11,
+        "AUROC": 0.9869,
+        "AUPR": 0.9774507034615695,
+        "FPR_at_95_TPR": 0.08,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            86,
+            11,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            4,
+            20,
+            26,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            49,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            48
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.995,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.005,
+        "known_type_acceptance": {
+          "BCH": 0.98,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.8335943157329806,
+        "known_type_macro_f1": 0.8287427175594648,
+        "known_type_macro_f1_change_from_closed": -0.00485159817351577,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.98,
+        "DNA_Aeon_unknown_recall": 0.7,
+        "combined_unknown_recall": 0.84,
+        "unknown_direct_known_rate": 0.16,
+        "unknown_misclassified_as_BCH_rate": 0.13,
+        "AUROC": 0.9869,
+        "AUPR": 0.9774507034615695,
+        "FPR_at_95_TPR": 0.08,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            84,
+            13,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            21,
+            28,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            49,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            48
+          ]
+        ]
+      }
+    },
+    "0.1": {
+      "fixed": {
+        "known_acceptance_rate": 0.875,
+        "known_no_ecc_rate": 0.12,
+        "known_proxy_rejection_rate": 0.005,
+        "known_type_acceptance": {
+          "BCH": 0.5,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.8679948836982359,
+        "known_type_macro_f1": 0.803270219886351,
+        "known_type_macro_f1_change_from_closed": -0.06472466381188491,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.68,
+        "combined_unknown_recall": 0.84,
+        "unknown_direct_known_rate": 0.1,
+        "unknown_misclassified_as_BCH_rate": 0.09,
+        "AUROC": 0.98945,
+        "AUPR": 0.9830763681068119,
+        "FPR_at_95_TPR": 0.055,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            84,
+            9,
+            0,
+            1,
+            0
+          ],
+          [
+            24,
+            1,
+            14,
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            46,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            2,
+            47
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.88,
+        "known_no_ecc_rate": 0.12,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.52,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.8679948836982359,
+        "known_type_macro_f1": 0.8090246955896757,
+        "known_type_macro_f1_change_from_closed": -0.05897018810856014,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.6,
+        "combined_unknown_recall": 0.8,
+        "unknown_direct_known_rate": 0.14,
+        "unknown_misclassified_as_BCH_rate": 0.13,
+        "AUROC": 0.98945,
+        "AUPR": 0.9830763681068119,
+        "FPR_at_95_TPR": 0.055,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            80,
+            13,
+            0,
+            1,
+            0
+          ],
+          [
+            24,
+            0,
+            15,
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            46,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            2,
+            47
+          ]
+        ]
+      }
+    },
+    "0.15": {
+      "fixed": {
+        "known_acceptance_rate": 0.555,
+        "known_no_ecc_rate": 0.445,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.22,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.7378945859905212,
+        "known_type_macro_f1": 0.47789458599052115,
+        "known_type_macro_f1_change_from_closed": -0.26,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.98,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.49,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.9885,
+        "AUPR": 0.9815134817845089,
+        "FPR_at_95_TPR": 0.065,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            51,
+            49,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            0,
+            5,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            10,
+            7,
+            33
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.555,
+        "known_no_ecc_rate": 0.445,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.22,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.7378945859905212,
+        "known_type_macro_f1": 0.47789458599052115,
+        "known_type_macro_f1_change_from_closed": -0.26,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.98,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.49,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.9885,
+        "AUPR": 0.9815134817845089,
+        "FPR_at_95_TPR": 0.065,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            51,
+            49,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            0,
+            5,
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            10,
+            7,
+            33
+          ]
+        ]
+      }
+    },
+    "0.2": {
+      "fixed": {
+        "known_acceptance_rate": 0.48,
+        "known_no_ecc_rate": 0.52,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.0,
+          "LDPC": 1.0,
+          "Polar": 0.92
+        },
+        "closed_macro_f1": 0.5761837980531266,
+        "known_type_macro_f1": 0.3106060606060606,
+        "known_type_macro_f1_change_from_closed": -0.265577737447066,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.0,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.9848,
+        "AUPR": 0.97682680186515,
+        "FPR_at_95_TPR": 0.08,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            4,
+            0,
+            5,
+            21,
+            10,
+            10
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.48,
+        "known_no_ecc_rate": 0.52,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.0,
+          "LDPC": 1.0,
+          "Polar": 0.92
+        },
+        "closed_macro_f1": 0.5761837980531266,
+        "known_type_macro_f1": 0.3106060606060606,
+        "known_type_macro_f1_change_from_closed": -0.265577737447066,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.0,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.9848,
+        "AUPR": 0.97682680186515,
+        "FPR_at_95_TPR": 0.08,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            4,
+            0,
+            5,
+            21,
+            10,
+            10
+          ]
+        ]
+      }
+    }
+  },
+  "44": {
+    "0.0": {
+      "fixed": {
+        "known_acceptance_rate": 0.975,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.025,
+        "known_type_acceptance": {
+          "BCH": 0.9,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.7788227158112035,
+        "known_type_macro_f1": 0.7505470009157704,
+        "known_type_macro_f1_change_from_closed": -0.028275714895433124,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.94,
+        "DNA_Aeon_unknown_recall": 0.86,
+        "combined_unknown_recall": 0.9,
+        "unknown_direct_known_rate": 0.1,
+        "unknown_misclassified_as_BCH_rate": 0.1,
+        "AUROC": 0.98705,
+        "AUPR": 0.9740583761113867,
+        "FPR_at_95_TPR": 0.045,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            90,
+            10,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            13,
+            32,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            47,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            44
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.975,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.025,
+        "known_type_acceptance": {
+          "BCH": 0.9,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.7788227158112035,
+        "known_type_macro_f1": 0.7505470009157704,
+        "known_type_macro_f1_change_from_closed": -0.028275714895433124,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.96,
+        "DNA_Aeon_unknown_recall": 0.86,
+        "combined_unknown_recall": 0.91,
+        "unknown_direct_known_rate": 0.09,
+        "unknown_misclassified_as_BCH_rate": 0.09,
+        "AUROC": 0.98705,
+        "AUPR": 0.9740583761113867,
+        "FPR_at_95_TPR": 0.045,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            91,
+            9,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            13,
+            32,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3,
+            47,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            44
+          ]
+        ]
+      }
+    },
+    "0.01": {
+      "fixed": {
+        "known_acceptance_rate": 0.975,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.025,
+        "known_type_acceptance": {
+          "BCH": 0.9,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.6990544236936427,
+        "known_type_macro_f1": 0.6721058333122165,
+        "known_type_macro_f1_change_from_closed": -0.026948590381426163,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.96,
+        "DNA_Aeon_unknown_recall": 0.84,
+        "combined_unknown_recall": 0.9,
+        "unknown_direct_known_rate": 0.1,
+        "unknown_misclassified_as_BCH_rate": 0.1,
+        "AUROC": 0.9888,
+        "AUPR": 0.9798675292004593,
+        "FPR_at_95_TPR": 0.03,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            90,
+            10,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            15,
+            30,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            24,
+            26
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.97,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.03,
+        "known_type_acceptance": {
+          "BCH": 0.88,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.6990544236936427,
+        "known_type_macro_f1": 0.6735822112649723,
+        "known_type_macro_f1_change_from_closed": -0.02547221242867037,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.98,
+        "DNA_Aeon_unknown_recall": 0.86,
+        "combined_unknown_recall": 0.92,
+        "unknown_direct_known_rate": 0.08,
+        "unknown_misclassified_as_BCH_rate": 0.08,
+        "AUROC": 0.9888,
+        "AUPR": 0.9798675292004593,
+        "FPR_at_95_TPR": 0.03,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            92,
+            8,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            15,
+            29,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            24,
+            26
+          ]
+        ]
+      }
+    },
+    "0.05": {
+      "fixed": {
+        "known_acceptance_rate": 0.97,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.03,
+        "known_type_acceptance": {
+          "BCH": 0.88,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.5400556875594023,
+        "known_type_macro_f1": 0.5148945352154584,
+        "known_type_macro_f1_change_from_closed": -0.025161152343943893,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.88,
+        "combined_unknown_recall": 0.94,
+        "unknown_direct_known_rate": 0.06,
+        "unknown_misclassified_as_BCH_rate": 0.05,
+        "AUROC": 0.9969,
+        "AUPR": 0.9940715467829258,
+        "FPR_at_95_TPR": 0.035,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            5,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            6,
+            16,
+            28,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            47,
+            3
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.965,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.035,
+        "known_type_acceptance": {
+          "BCH": 0.86,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.5400556875594023,
+        "known_type_macro_f1": 0.5090670293879526,
+        "known_type_macro_f1_change_from_closed": -0.03098865817144969,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.88,
+        "combined_unknown_recall": 0.94,
+        "unknown_direct_known_rate": 0.06,
+        "unknown_misclassified_as_BCH_rate": 0.05,
+        "AUROC": 0.9969,
+        "AUPR": 0.9940715467829258,
+        "FPR_at_95_TPR": 0.035,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            5,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            7,
+            15,
+            28,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            47,
+            3
+          ]
+        ]
+      }
+    },
+    "0.1": {
+      "fixed": {
+        "known_acceptance_rate": 0.9,
+        "known_no_ecc_rate": 0.085,
+        "known_proxy_rejection_rate": 0.015,
+        "known_type_acceptance": {
+          "BCH": 0.62,
+          "Convolutional": 0.98,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.5229885057471264,
+        "known_type_macro_f1": 0.45868347338935567,
+        "known_type_macro_f1_change_from_closed": -0.06430503235777074,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.52,
+        "combined_unknown_recall": 0.76,
+        "unknown_direct_known_rate": 0.09,
+        "unknown_misclassified_as_BCH_rate": 0.09,
+        "AUROC": 0.99085,
+        "AUPR": 0.9844912536494265,
+        "FPR_at_95_TPR": 0.035,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            76,
+            9,
+            0,
+            0,
+            0
+          ],
+          [
+            17,
+            2,
+            13,
+            18,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            5,
+            44,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.9,
+        "known_no_ecc_rate": 0.085,
+        "known_proxy_rejection_rate": 0.015,
+        "known_type_acceptance": {
+          "BCH": 0.62,
+          "Convolutional": 0.98,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.5229885057471264,
+        "known_type_macro_f1": 0.45868347338935567,
+        "known_type_macro_f1_change_from_closed": -0.06430503235777074,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.56,
+        "combined_unknown_recall": 0.78,
+        "unknown_direct_known_rate": 0.07,
+        "unknown_misclassified_as_BCH_rate": 0.07,
+        "AUROC": 0.99085,
+        "AUPR": 0.9844912536494265,
+        "FPR_at_95_TPR": 0.035,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            15,
+            78,
+            7,
+            0,
+            0,
+            0
+          ],
+          [
+            17,
+            2,
+            13,
+            18,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            5,
+            44,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ]
+        ]
+      }
+    },
+    "0.15": {
+      "fixed": {
+        "known_acceptance_rate": 0.555,
+        "known_no_ecc_rate": 0.445,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.22,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.4801559296972141,
+        "known_type_macro_f1": 0.24293785310734461,
+        "known_type_macro_f1_change_from_closed": -0.2372180765898695,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.5,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.9901,
+        "AUPR": 0.9835695225729875,
+        "FPR_at_95_TPR": 0.045,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            50,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            0,
+            2,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.555,
+        "known_no_ecc_rate": 0.445,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.22,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.4801559296972141,
+        "known_type_macro_f1": 0.24293785310734461,
+        "known_type_macro_f1_change_from_closed": -0.2372180765898695,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.5,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.9901,
+        "AUPR": 0.9835695225729875,
+        "FPR_at_95_TPR": 0.045,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            50,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            39,
+            0,
+            2,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ]
+        ]
+      }
+    },
+    "0.2": {
+      "fixed": {
+        "known_acceptance_rate": 0.5,
+        "known_no_ecc_rate": 0.5,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.4545454545454545,
+        "known_type_macro_f1": 0.16666666666666666,
+        "known_type_macro_f1_change_from_closed": -0.28787878787878785,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.0,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.98425,
+        "AUPR": 0.9721813525814863,
+        "FPR_at_95_TPR": 0.06,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.5,
+        "known_no_ecc_rate": 0.5,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.4545454545454545,
+        "known_type_macro_f1": 0.16666666666666666,
+        "known_type_macro_f1_change_from_closed": -0.28787878787878785,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.0,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.98425,
+        "AUPR": 0.9721813525814863,
+        "FPR_at_95_TPR": 0.06,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "45": {
+    "0.0": {
+      "fixed": {
+        "known_acceptance_rate": 0.955,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.045,
+        "known_type_acceptance": {
+          "BCH": 0.82,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.7442870826491517,
+        "known_type_macro_f1": 0.7159587998208687,
+        "known_type_macro_f1_change_from_closed": -0.028328282828282925,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.92,
+        "DNA_Aeon_unknown_recall": 0.9,
+        "combined_unknown_recall": 0.91,
+        "unknown_direct_known_rate": 0.09,
+        "unknown_misclassified_as_BCH_rate": 0.09,
+        "AUROC": 0.9878,
+        "AUPR": 0.9763749373777901,
+        "FPR_at_95_TPR": 0.09,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            91,
+            9,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            9,
+            14,
+            27,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            16,
+            34
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.915,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.085,
+        "known_type_acceptance": {
+          "BCH": 0.66,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.7442870826491517,
+        "known_type_macro_f1": 0.6968904624886019,
+        "known_type_macro_f1_change_from_closed": -0.047396620160549796,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.92,
+        "DNA_Aeon_unknown_recall": 0.92,
+        "combined_unknown_recall": 0.92,
+        "unknown_direct_known_rate": 0.08,
+        "unknown_misclassified_as_BCH_rate": 0.08,
+        "AUROC": 0.9878,
+        "AUPR": 0.9763749373777901,
+        "FPR_at_95_TPR": 0.09,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            92,
+            8,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            17,
+            10,
+            23,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            16,
+            34
+          ]
+        ]
+      }
+    },
+    "0.01": {
+      "fixed": {
+        "known_acceptance_rate": 0.965,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.035,
+        "known_type_acceptance": {
+          "BCH": 0.86,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.7172172066651769,
+        "known_type_macro_f1": 0.6940522710975942,
+        "known_type_macro_f1_change_from_closed": -0.0231649355675827,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.94,
+        "DNA_Aeon_unknown_recall": 0.9,
+        "combined_unknown_recall": 0.92,
+        "unknown_direct_known_rate": 0.08,
+        "unknown_misclassified_as_BCH_rate": 0.07,
+        "AUROC": 0.9912,
+        "AUPR": 0.9825386884302997,
+        "FPR_at_95_TPR": 0.055,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            92,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            7,
+            16,
+            27,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            22,
+            28
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.93,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.07,
+        "known_type_acceptance": {
+          "BCH": 0.72,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.7172172066651769,
+        "known_type_macro_f1": 0.6827523197120813,
+        "known_type_macro_f1_change_from_closed": -0.034464886953095575,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.92,
+        "combined_unknown_recall": 0.96,
+        "unknown_direct_known_rate": 0.04,
+        "unknown_misclassified_as_BCH_rate": 0.03,
+        "AUROC": 0.9912,
+        "AUPR": 0.9825386884302997,
+        "FPR_at_95_TPR": 0.055,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            96,
+            3,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            14,
+            13,
+            23,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            22,
+            28
+          ]
+        ]
+      }
+    },
+    "0.05": {
+      "fixed": {
+        "known_acceptance_rate": 0.97,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.03,
+        "known_type_acceptance": {
+          "BCH": 0.9,
+          "Convolutional": 0.98,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.635689282469373,
+        "known_type_macro_f1": 0.6141966905542459,
+        "known_type_macro_f1_change_from_closed": -0.02149259191512709,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.8,
+        "combined_unknown_recall": 0.9,
+        "unknown_direct_known_rate": 0.1,
+        "unknown_misclassified_as_BCH_rate": 0.09,
+        "AUROC": 0.98725,
+        "AUPR": 0.9799069905507054,
+        "FPR_at_95_TPR": 0.095,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            90,
+            9,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            5,
+            20,
+            24,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            38,
+            12
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.945,
+        "known_no_ecc_rate": 0.0,
+        "known_proxy_rejection_rate": 0.055,
+        "known_type_acceptance": {
+          "BCH": 0.8,
+          "Convolutional": 0.98,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.635689282469373,
+        "known_type_macro_f1": 0.6016303086563007,
+        "known_type_macro_f1_change_from_closed": -0.03405897381307221,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.84,
+        "combined_unknown_recall": 0.92,
+        "unknown_direct_known_rate": 0.08,
+        "unknown_misclassified_as_BCH_rate": 0.07,
+        "AUROC": 0.98725,
+        "AUPR": 0.9799069905507054,
+        "FPR_at_95_TPR": 0.095,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            92,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            10,
+            17,
+            22,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            48,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            38,
+            12
+          ]
+        ]
+      }
+    },
+    "0.1": {
+      "fixed": {
+        "known_acceptance_rate": 0.905,
+        "known_no_ecc_rate": 0.085,
+        "known_proxy_rejection_rate": 0.01,
+        "known_type_acceptance": {
+          "BCH": 0.62,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.5882659007659008,
+        "known_type_macro_f1": 0.5533625021104598,
+        "known_type_macro_f1_change_from_closed": -0.03490339865544101,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.72,
+        "combined_unknown_recall": 0.86,
+        "unknown_direct_known_rate": 0.08,
+        "unknown_misclassified_as_BCH_rate": 0.07,
+        "AUROC": 0.99085,
+        "AUPR": 0.9844720854208071,
+        "FPR_at_95_TPR": 0.04,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            86,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            17,
+            2,
+            18,
+            13,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            46,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            44,
+            5
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.88,
+        "known_no_ecc_rate": 0.085,
+        "known_proxy_rejection_rate": 0.035,
+        "known_type_acceptance": {
+          "BCH": 0.52,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.5882659007659008,
+        "known_type_macro_f1": 0.5334778948909383,
+        "known_type_macro_f1_change_from_closed": -0.054788005874962464,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.78,
+        "combined_unknown_recall": 0.89,
+        "unknown_direct_known_rate": 0.05,
+        "unknown_misclassified_as_BCH_rate": 0.04,
+        "AUROC": 0.99085,
+        "AUPR": 0.9844720854208071,
+        "FPR_at_95_TPR": 0.04,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            89,
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            17,
+            7,
+            14,
+            12,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4,
+            46,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            44,
+            5
+          ]
+        ]
+      }
+    },
+    "0.15": {
+      "fixed": {
+        "known_acceptance_rate": 0.6,
+        "known_no_ecc_rate": 0.4,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.4,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.5234229324789244,
+        "known_type_macro_f1": 0.29927946474523937,
+        "known_type_macro_f1_change_from_closed": -0.224143467733685,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.5,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.98905,
+        "AUPR": 0.9801502010006878,
+        "FPR_at_95_TPR": 0.055,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            50,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            3,
+            17,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            0,
+            45,
+            0
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.6,
+        "known_no_ecc_rate": 0.4,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.4,
+          "LDPC": 1.0,
+          "Polar": 1.0
+        },
+        "closed_macro_f1": 0.5234229324789244,
+        "known_type_macro_f1": 0.29927946474523937,
+        "known_type_macro_f1_change_from_closed": -0.224143467733685,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.5,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.98905,
+        "AUPR": 0.9801502010006878,
+        "FPR_at_95_TPR": 0.055,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            50,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            0,
+            3,
+            17,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            0,
+            0,
+            5,
+            0,
+            45,
+            0
+          ]
+        ]
+      }
+    },
+    "0.2": {
+      "fixed": {
+        "known_acceptance_rate": 0.475,
+        "known_no_ecc_rate": 0.525,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.0,
+          "LDPC": 1.0,
+          "Polar": 0.9
+        },
+        "closed_macro_f1": 0.5129357706522825,
+        "known_type_macro_f1": 0.1773049645390071,
+        "known_type_macro_f1_change_from_closed": -0.33563080611327534,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.0,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.98825,
+        "AUPR": 0.9784594500059041,
+        "FPR_at_95_TPR": 0.05,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            5,
+            0,
+            4,
+            0,
+            41,
+            0
+          ]
+        ]
+      },
+      "recalibrated": {
+        "known_acceptance_rate": 0.475,
+        "known_no_ecc_rate": 0.525,
+        "known_proxy_rejection_rate": 0.0,
+        "known_type_acceptance": {
+          "BCH": 0.0,
+          "Convolutional": 0.0,
+          "LDPC": 1.0,
+          "Polar": 0.9
+        },
+        "closed_macro_f1": 0.5129357706522825,
+        "known_type_macro_f1": 0.1773049645390071,
+        "known_type_macro_f1_change_from_closed": -0.33563080611327534,
+        "no_ecc_specificity": 1.0,
+        "HEDGES_unknown_recall": 0.0,
+        "DNA_Aeon_unknown_recall": 0.0,
+        "combined_unknown_recall": 0.0,
+        "unknown_direct_known_rate": 0.0,
+        "unknown_misclassified_as_BCH_rate": 0.0,
+        "AUROC": 0.98825,
+        "AUPR": 0.9784594500059041,
+        "FPR_at_95_TPR": 0.05,
+        "labels": [
+          "no_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "six_class_confusion_matrix": [
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            100,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            50,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            50,
+            0
+          ],
+          [
+            5,
+            0,
+            4,
+            0,
+            41,
+            0
+          ]
+        ]
+      }
+    }
+  }
+}

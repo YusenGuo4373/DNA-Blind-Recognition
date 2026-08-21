@@ -1,0 +1,13 @@
+{
+  "experiment_name": "Coded/uncoded discriminator used by the fixed open-set cascade",
+  "result_scope": "formal_simulation",
+  "run_config": {
+    "seed": 42,
+    "molecules": 20,
+    "reads_per_molecule": 50,
+    "test_error_rate": 0.05
+  },
+  "candidate_set_classifier_updated": false,
+  "code_rate_called": false,
+  "code_length_called": false
+}

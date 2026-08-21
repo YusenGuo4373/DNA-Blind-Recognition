@@ -1,0 +1,25 @@
+{
+  "sequence_statistics": {
+    "read_features": [
+      "length",
+      "base_frequencies_4",
+      "GC",
+      "base_entropy",
+      "dinucleotide_frequencies_16",
+      "dinucleotide_entropy",
+      "normalized_max_homopolymer",
+      "long_run_fraction",
+      "same_base_lags_1_2_3_4_6_8_12"
+    ],
+    "archive_aggregation": [
+      "mean",
+      "std",
+      "q10",
+      "median",
+      "q90"
+    ]
+  },
+  "embedding": "128D archive mean+std",
+  "logits": "Stage-2 rich logit feature vector",
+  "feature_dimension": 464
+}

@@ -1,0 +1,32 @@
+{
+  "upstream": "https://github.com/zhouph0313/DNA",
+  "branch": "main",
+  "commit": "1ac47fce3bb9526633e38a7863612d7dc5db3a40",
+  "license_file_present": false,
+  "files": {
+    "bchDNA4.py": "f22d3b0f6d74e43cd5ece5e36baebcb527281d8adf77feba12b25d98763ebd20",
+    "cnnparameter.py": "1b91ff64a9cbeab7b39ac6b0ea397844bd7c0f16ae9bde059ebba9687dc18621",
+    "cnntype.py": "d88c653956b18d4c62a88c1b068581ba5df427d45423e0a63257954b5c21193f",
+    "conveDNA4.py": "f55cadf6cb3fa691a15ee335e9b4cef32b81b4c2063e4a5ef9f5df378a77c953",
+    "dataset.py": "e632e792c18b7270d9d8fa4ef6dce79a223bb205aad9ca5d07d7d3731f78c427",
+    "dataset_adaptive.py": "4890efca78dcd1d3076a8816c17df4b28bc59dbb3fe82c5cae16816b44a436ef",
+    "dataset_indexed.py": "3475484c247c909a1baafa92b274906b4ab862e549a14baaab18a2b71f8982da",
+    "ldpcDNA4.py": "9e932de364d5b44d909c3e1891bb6a37249379535db846959447e825e3f6acf2",
+    "lstmparameter.py": "a6eb0c6ef20d3d18127a5a387ca7fea0cd10f06a960d087e863429567b24ca68",
+    "lstmtype.py": "5a8e99d5a78925b0d4f348f509b2550f5d281a66036933f8bff8791af7716c87",
+    "models.py": "c01bb357f3f2b4ef624c8bf4be71f824f22b264908cbc5095728d2ce0e5fe959",
+    "model_nomask.py": "944d8d43cebbdbec668af421f3c00a35259108f4697a55fea9eed05bdaf66764",
+    "polarDNA4.py": "1d16b09c900687727bd3a90c18137228db1d3e60ee92c317223b9e6d36b8036a",
+    "typetransformer.py": "a9e371ad35f6a9c796b80305fc21b7e091935ea791f006c3115b9f7796585d64",
+    "vote6.1copyerror.py": "84e017e1906ecfc33e28a86f9bebe37eecd5a08234dd26e4bc58764533dbdd5c",
+    "channelcode/binary2bch.py": "5da6a0a884f2e079d0c56c4b6fb254f837e0757319948a635494f1e9b340a138",
+    "channelcode/binary2convecode.py": "8040cf31b67d60466a274f0349cf3b78b2f28cc3228f28a8c1e9e73d42611d5e",
+    "channelcode/binary2dna.py": "cd98940be24380909e62b2813a9bc472dcc4eb134edc05b902a9e135f0922124",
+    "channelcode/binary2LDPC.py": "34dd2c1af10f0089433688a833ac5f5d88130a03f13eadae161aa5ea5c2d7044",
+    "channelcode/binary2polar.py": "9bf114f75cfd4d35b91ccf5a17cc44925ceb02e305275a6cb57caaf20b3bcbc1",
+    "channelcode/CNNrecognizer": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "channelcode/encoded_ldpc_binary.txt": "55dd99f0a925e373fbe35df6197cd27f6478b263957982cb79df33fe2eafa971",
+    "channelcode/mess2binary.py": "1d252807022aaf474032f83a53d8959ab997d9bc82a9935a4c58adf27119ab7e",
+    "channelcode/messagefromweb.py": "518138c47c18a11be9c2a09ac7330b50038cdf9025e66db50d3688db5f1f7aec"
+  }
+}

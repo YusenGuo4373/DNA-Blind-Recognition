@@ -1,0 +1,44 @@
+{
+  "experiment": "Stage-7 默认同分布条件下的大规模独立重复性验证",
+  "positioning": "冻结作者盲识别核心和既有外部门控，在默认同分布IDS条件下进行的大规模独立重复性与统计稳定性验证。",
+  "formal_seeds": [
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "smoke_seed": 907,
+  "classes": [
+    "no_ecc",
+    "BCH",
+    "Convolutional",
+    "LDPC",
+    "Polar",
+    "HEDGES",
+    "DNA-Aeon"
+  ],
+  "archives_per_class_seed": 100,
+  "M": 20,
+  "q": 50,
+  "reads_per_seed": 700000,
+  "total_reads": 3500000,
+  "IDS": {
+    "p_ins": 0.05,
+    "p_del": 0.05,
+    "p_sub": 0.05
+  },
+  "thresholds": {
+    "presence": 0.464293801413849,
+    "energy": -1.5266819876166224,
+    "proxy": 0.8268975481068935
+  },
+  "worker_thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "code_rate": null,
+  "code_length": null
+}

@@ -1,0 +1,19 @@
+name: dna-ecc-blind-recognition
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=2.2.6
+  - pytorch=2.5.1
+  - pytorch-cuda=12.1
+  - pillow
+  - pytest
+  - pip
+  - pip:
+      - h5py>=3.10
+      - matplotlib>=3.8
+      - pandas>=2.1
+      - scikit-learn>=1.4
+      - scikit-commpy>=0.8

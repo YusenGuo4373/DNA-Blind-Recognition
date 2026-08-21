@@ -1,0 +1,11 @@
+{
+  "positioning": "Robustness analysis of the fixed post-hoc OOD detector across independent data seeds, IDS error rates, and decision-fusion settings",
+  "seeds": [43, 44, 45],
+  "error_rates": [0.0, 0.01, 0.05, 0.1, 0.15, 0.2],
+  "reads_per_molecule": [1, 5, 10, 20, 50],
+  "molecules_per_archive": [1, 5, 10, 20, 50],
+  "fixed_threshold": 0.8268975481068935,
+  "proxy_code_types": ["ReedSolomon", "Turbo", "LT-XOR"],
+  "HEDGES_DNA_Aeon_used_for_development": false,
+  "candidate_set_classifier_parameters_held_fixed": true
+}

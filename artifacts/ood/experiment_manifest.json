@@ -1,0 +1,14 @@
+{
+  "experiment_positioning": "Post-hoc OOD detector built on a fixed candidate-set code-type classifier",
+  "development_seed": 42,
+  "proxy_code_types": ["ReedSolomon", "Turbo", "LT-XOR"],
+  "HEDGES_DNA_Aeon_absent_from_development": true,
+  "rules_frozen_before_independent_confirmation": true,
+  "candidate_set_classifier_parameters_held_fixed": true,
+  "environment": {
+    "python": "3.10.0",
+    "numpy": "2.2.6",
+    "torch": "2.5.1+cu121",
+    "formal_device": "NVIDIA GeForce RTX 3050 Laptop GPU"
+  }
+}

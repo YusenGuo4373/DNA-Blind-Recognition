@@ -1,0 +1,35 @@
+{
+  "formal_test_seeds": [46, 47, 48, 49, 50],
+  "split_names": {
+    "46": "stage7-test-seed-46",
+    "47": "stage7-test-seed-47",
+    "48": "stage7-test-seed-48",
+    "49": "stage7-test-seed-49",
+    "50": "stage7-test-seed-50"
+  },
+  "input_categories": [
+    "no_ecc",
+    "BCH",
+    "Convolutional",
+    "LDPC",
+    "Polar",
+    "HEDGES",
+    "DNA-Aeon"
+  ],
+  "archives_per_category_per_seed": 100,
+  "molecules_per_archive": 20,
+  "reads_per_molecule": 50,
+  "reference_length": 384,
+  "padded_length": 400,
+  "ids_error_rates": {
+    "insertion": 0.05,
+    "deletion": 0.05,
+    "substitution": 0.05
+  },
+  "totals": {
+    "archives": 3500,
+    "molecules": 70000,
+    "reads": 3500000
+  },
+  "target_unknown_code_types_used_for_development": false
+}

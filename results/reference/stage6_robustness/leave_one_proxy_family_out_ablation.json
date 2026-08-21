@@ -1,0 +1,161 @@
+{
+  "A_sequence": {
+    "blocks": [
+      "sequence"
+    ],
+    "dimension": 165,
+    "threshold": 0.9366059535101914,
+    "pca": 48,
+    "ridge": 0.01,
+    "lofo_min_known": 0.95,
+    "lofo_min_proxy": 0.3,
+    "lofo_mean_proxy": 0.4000000000000001,
+    "folds": [
+      [
+        0.975,
+        0.3
+      ],
+      [
+        0.95,
+        0.5
+      ],
+      [
+        0.975,
+        0.4
+      ]
+    ]
+  },
+  "B_embedding": {
+    "blocks": [
+      "embedding"
+    ],
+    "dimension": 256,
+    "threshold": 0.900175364505311,
+    "pca": 16,
+    "ridge": 0.01,
+    "lofo_min_known": 0.975,
+    "lofo_min_proxy": 0.3,
+    "lofo_mean_proxy": 0.3333333333333333,
+    "folds": [
+      [
+        0.975,
+        0.3
+      ],
+      [
+        1.0,
+        0.4
+      ],
+      [
+        0.975,
+        0.3
+      ]
+    ]
+  },
+  "C_logits": {
+    "blocks": [
+      "logits"
+    ],
+    "dimension": 43,
+    "threshold": 0.8531604954475874,
+    "pca": 16,
+    "ridge": 0.01,
+    "lofo_min_known": 0.9,
+    "lofo_min_proxy": 0.4,
+    "lofo_mean_proxy": 0.5666666666666665,
+    "folds": [
+      [
+        0.95,
+        0.7
+      ],
+      [
+        0.95,
+        0.6
+      ],
+      [
+        0.9,
+        0.4
+      ]
+    ]
+  },
+  "D_sequence_embedding": {
+    "blocks": [
+      "sequence",
+      "embedding"
+    ],
+    "dimension": 421,
+    "threshold": 0.9745539336696801,
+    "pca": 48,
+    "ridge": 0.01,
+    "lofo_min_known": 1.0,
+    "lofo_min_proxy": 0.2,
+    "lofo_mean_proxy": 0.26666666666666666,
+    "folds": [
+      [
+        1.0,
+        0.2
+      ],
+      [
+        1.0,
+        0.4
+      ],
+      [
+        1.0,
+        0.2
+      ]
+    ]
+  },
+  "E_sequence_logits": {
+    "blocks": [
+      "sequence",
+      "logits"
+    ],
+    "dimension": 208,
+    "threshold": 0.9648471546687972,
+    "pca": 48,
+    "ridge": 0.01,
+    "lofo_min_known": 0.975,
+    "lofo_min_proxy": 0.2,
+    "lofo_mean_proxy": 0.3333333333333333,
+    "folds": [
+      [
+        1.0,
+        0.3
+      ],
+      [
+        0.975,
+        0.5
+      ],
+      [
+        1.0,
+        0.2
+      ]
+    ]
+  },
+  "F_embedding_logits": {
+    "blocks": [
+      "embedding",
+      "logits"
+    ],
+    "dimension": 299,
+    "threshold": 0.9452460969783757,
+    "pca": 16,
+    "ridge": 0.01,
+    "lofo_min_known": 0.975,
+    "lofo_min_proxy": 0.1,
+    "lofo_mean_proxy": 0.16666666666666666,
+    "folds": [
+      [
+        0.975,
+        0.2
+      ],
+      [
+        1.0,
+        0.2
+      ],
+      [
+        1.0,
+        0.1
+      ]
+    ]
+  }
+}

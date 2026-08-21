@@ -1,0 +1,8 @@
+ablation,blocks,status,known_acceptance_rate,known_rejection_rate,HEDGES_unknown_recall,DNA_Aeon_unknown_recall,combined_unknown_recall,unknown_forced_known_rate,unknown_misclassified_as_BCH_rate,known_type_macro_f1,known_type_macro_f1_change_from_closed,AUROC,AUPR,FPR_at_95_TPR
+A_sequence,sequence,not_evaluable_missing_serialized_model_no_refit_permitted,,,,,,,,,,,,
+B_embedding,embedding,not_evaluable_missing_serialized_model_no_refit_permitted,,,,,,,,,,,,
+C_logits,logits,not_evaluable_missing_serialized_model_no_refit_permitted,,,,,,,,,,,,
+D_sequence_embedding,sequence+embedding,not_evaluable_missing_serialized_model_no_refit_permitted,,,,,,,,,,,,
+E_sequence_logits,sequence+logits,not_evaluable_missing_serialized_model_no_refit_permitted,,,,,,,,,,,,
+F_embedding_logits,embedding+logits,not_evaluable_missing_serialized_model_no_refit_permitted,,,,,,,,,,,,
+G_all,sequence+embedding+logits,evaluated_frozen_serialized_detector,0.979,0.021,1.0,0.81,0.905,0.095,0.084,0.7907523667173227,-0.01558681976066667,0.9886925,0.9809223600744928,0.086

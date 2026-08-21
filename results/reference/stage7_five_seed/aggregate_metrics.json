@@ -1,0 +1,980 @@
+{
+  "pooled_archive_metrics": {
+    "closed_set": {
+      "read_level": {
+        "accuracy": 0.4196265,
+        "macro_f1": 0.4215474906823871,
+        "per_class": {
+          "BCH": {
+            "precision": 0.33086769207316546,
+            "recall": 0.381998,
+            "f1": 0.35459918478891483,
+            "support": 500000
+          },
+          "Convolutional": {
+            "precision": 0.3590066349253631,
+            "recall": 0.448344,
+            "f1": 0.39873250547169525,
+            "support": 500000
+          },
+          "LDPC": {
+            "precision": 0.48585340966214746,
+            "recall": 0.518048,
+            "f1": 0.501434473039263,
+            "support": 500000
+          },
+          "Polar": {
+            "precision": 0.6224422840507131,
+            "recall": 0.330116,
+            "f1": 0.4314237994296752,
+            "support": 500000
+          }
+        },
+        "labels": [
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "confusion_matrix": [
+          [
+            190999,
+            182728,
+            86947,
+            39326
+          ],
+          [
+            165096,
+            224172,
+            75053,
+            35679
+          ],
+          [
+            121559,
+            94302,
+            259024,
+            25115
+          ],
+          [
+            99613,
+            123221,
+            112108,
+            165058
+          ]
+        ]
+      },
+      "archive_level": {
+        "accuracy": 0.815,
+        "macro_f1": 0.8063391864779894,
+        "per_class": {
+          "BCH": {
+            "precision": 0.963265306122449,
+            "recall": 0.472,
+            "f1": 0.6335570469798658,
+            "support": 500
+          },
+          "Convolutional": {
+            "precision": 0.6312419974391805,
+            "recall": 0.986,
+            "f1": 0.7697111631537861,
+            "support": 500
+          },
+          "LDPC": {
+            "precision": 0.8726003490401396,
+            "recall": 1.0,
+            "f1": 0.9319664492078285,
+            "support": 500
+          },
+          "Polar": {
+            "precision": 1.0,
+            "recall": 0.802,
+            "f1": 0.8901220865704773,
+            "support": 500
+          }
+        },
+        "labels": [
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "confusion_matrix": [
+          [
+            236,
+            263,
+            1,
+            0
+          ],
+          [
+            7,
+            493,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            500,
+            0
+          ],
+          [
+            2,
+            25,
+            72,
+            401
+          ]
+        ]
+      }
+    },
+    "presence": {
+      "known_acceptance_rate": 0.9995,
+      "known_no_ecc_rate": 0.0005,
+      "no_ecc_specificity": 1.0,
+      "known_type_acceptance": {
+        "BCH": 1.0,
+        "Convolutional": 1.0,
+        "LDPC": 1.0,
+        "Polar": 0.998
+      },
+      "BCH_rejection_rate": 0.0
+    },
+    "detectors": {
+      "energy_only": {
+        "known_acceptance_rate": 0.981,
+        "known_rejection_rate": 0.019,
+        "known_type_acceptance": {
+          "BCH": 0.93,
+          "Convolutional": 0.996,
+          "LDPC": 1.0,
+          "Polar": 0.998
+        },
+        "known_type_rejection": {
+          "BCH": 0.07,
+          "Convolutional": 0.004,
+          "LDPC": 0.0,
+          "Polar": 0.002
+        },
+        "HEDGES_unknown_recall": 0.062,
+        "DNA_Aeon_unknown_recall": 0.09,
+        "combined_unknown_recall": 0.076,
+        "unknown_forced_known_rate": 0.924,
+        "unknown_misclassified_as_BCH_rate": 0.911,
+        "known_type_macro_f1": 0.7975727122360513,
+        "known_type_macro_f1_change_from_closed": -0.008766474241938105,
+        "AUROC": 0.88827825,
+        "AUPR": 0.6981847590986259,
+        "FPR_at_95_TPR": 0.253
+      },
+      "proxy_only": {
+        "known_acceptance_rate": 0.979,
+        "known_rejection_rate": 0.021,
+        "known_type_acceptance": {
+          "BCH": 0.918,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 0.998
+        },
+        "known_type_rejection": {
+          "BCH": 0.082,
+          "Convolutional": 0.0,
+          "LDPC": 0.0,
+          "Polar": 0.002
+        },
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.81,
+        "combined_unknown_recall": 0.905,
+        "unknown_forced_known_rate": 0.095,
+        "unknown_misclassified_as_BCH_rate": 0.084,
+        "known_type_macro_f1": 0.7907523667173227,
+        "known_type_macro_f1_change_from_closed": -0.01558681976066667,
+        "AUROC": 0.9886925,
+        "AUPR": 0.9809223600744928,
+        "FPR_at_95_TPR": 0.086
+      },
+      "three_state": {
+        "known_acceptance_rate": 0.968,
+        "known_rejection_rate": 0.032,
+        "known_type_acceptance": {
+          "BCH": 0.878,
+          "Convolutional": 0.996,
+          "LDPC": 1.0,
+          "Polar": 0.998
+        },
+        "known_type_rejection": {
+          "BCH": 0.122,
+          "Convolutional": 0.004,
+          "LDPC": 0.0,
+          "Polar": 0.002
+        },
+        "HEDGES_unknown_recall": 0.062,
+        "DNA_Aeon_unknown_recall": 0.09,
+        "combined_unknown_recall": 0.076,
+        "unknown_forced_known_rate": 0.095,
+        "unknown_misclassified_as_BCH_rate": 0.084,
+        "known_type_macro_f1": 0.7871310384603857,
+        "known_type_macro_f1_change_from_closed": -0.019208148017603732,
+        "AUROC": 0.9886925,
+        "AUPR": 0.9809223600744928,
+        "FPR_at_95_TPR": 0.086,
+        "known_ecc_output_rate": 0.968,
+        "uncertain_ecc_output_rate": 0.29233333333333333,
+        "unknown_ecc_output_rate": 0.030333333333333334,
+        "unknown_risk_coverage": 0.905,
+        "known_uncertain_rate": 0.024,
+        "unknown_uncertain_rate": 0.829,
+        "decisive_coverage_ecc": 0.7076666666666667,
+        "decisive_accuracy_ecc": 0.9477154969382948,
+        "manual_review_rate_all_archives": 0.25057142857142856,
+        "unknown_direct_known_rate": 0.095,
+        "labels": [
+          "no_ecc",
+          "uncertain_ecc",
+          "unknown_ecc",
+          "BCH",
+          "Convolutional",
+          "LDPC",
+          "Polar"
+        ],
+        "seven_class_confusion_matrix": [
+          [
+            500,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            829,
+            76,
+            84,
+            0,
+            11,
+            0
+          ],
+          [
+            0,
+            46,
+            15,
+            192,
+            246,
+            1,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            6,
+            492,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            500,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            2,
+            25,
+            72,
+            400
+          ]
+        ]
+      },
+      "G_all": {
+        "known_acceptance_rate": 0.979,
+        "known_rejection_rate": 0.021,
+        "known_type_acceptance": {
+          "BCH": 0.918,
+          "Convolutional": 1.0,
+          "LDPC": 1.0,
+          "Polar": 0.998
+        },
+        "known_type_rejection": {
+          "BCH": 0.082,
+          "Convolutional": 0.0,
+          "LDPC": 0.0,
+          "Polar": 0.002
+        },
+        "HEDGES_unknown_recall": 1.0,
+        "DNA_Aeon_unknown_recall": 0.81,
+        "combined_unknown_recall": 0.905,
+        "unknown_forced_known_rate": 0.095,
+        "unknown_misclassified_as_BCH_rate": 0.084,
+        "known_type_macro_f1": 0.7907523667173227,
+        "known_type_macro_f1_change_from_closed": -0.01558681976066667,
+        "AUROC": 0.9886925,
+        "AUPR": 0.9809223600744928,
+        "FPR_at_95_TPR": 0.086
+      }
+    }
+  },
+  "five_seed_summary": {
+    "energy_only": {
+      "known_acceptance_rate": {
+        "mean": 0.9810000000000001,
+        "std_population": 0.005147815070493522,
+        "best_seed": 48,
+        "best_value": 0.9875,
+        "worst_seed": 46,
+        "worst_value": 0.975
+      },
+      "known_rejection_rate": {
+        "mean": 0.019000000000000003,
+        "std_population": 0.005147815070493501,
+        "best_seed": 48,
+        "best_value": 0.0125,
+        "worst_seed": 46,
+        "worst_value": 0.025
+      },
+      "HEDGES_unknown_recall": {
+        "mean": 0.06200000000000001,
+        "std_population": 0.02785677655436824,
+        "best_seed": 49,
+        "best_value": 0.1,
+        "worst_seed": 50,
+        "worst_value": 0.03
+      },
+      "DNA_Aeon_unknown_recall": {
+        "mean": 0.09,
+        "std_population": 0.025298221281347028,
+        "best_seed": 47,
+        "best_value": 0.12,
+        "worst_seed": 50,
+        "worst_value": 0.06
+      },
+      "combined_unknown_recall": {
+        "mean": 0.076,
+        "std_population": 0.02222611077089287,
+        "best_seed": 49,
+        "best_value": 0.11,
+        "worst_seed": 50,
+        "worst_value": 0.045
+      },
+      "unknown_forced_known_rate": {
+        "mean": 0.924,
+        "std_population": 0.022226110770892843,
+        "best_seed": 49,
+        "best_value": 0.89,
+        "worst_seed": 50,
+        "worst_value": 0.955
+      },
+      "unknown_misclassified_as_BCH_rate": {
+        "mean": 0.9109999999999999,
+        "std_population": 0.02653299832284319,
+        "best_seed": 49,
+        "best_value": 0.87,
+        "worst_seed": 50,
+        "worst_value": 0.95
+      },
+      "known_type_macro_f1": {
+        "mean": 0.7964089272392049,
+        "std_population": 0.04617972033685856,
+        "best_seed": 47,
+        "best_value": 0.8322885626000814,
+        "worst_seed": 46,
+        "worst_value": 0.7147268357349945
+      },
+      "known_type_macro_f1_change_from_closed": {
+        "mean": -0.008915544660670304,
+        "std_population": 0.004111515070441254,
+        "best_seed": 49,
+        "best_value": -0.0028362363621170505,
+        "worst_seed": 47,
+        "worst_value": -0.0144738746562455
+      },
+      "AUROC": {
+        "mean": 0.8888,
+        "std_population": 0.010321131236448833,
+        "best_seed": 48,
+        "best_value": 0.9032375,
+        "worst_seed": 49,
+        "worst_value": 0.8744125
+      },
+      "AUPR": {
+        "mean": 0.7033761771014609,
+        "std_population": 0.027872755173513637,
+        "best_seed": 48,
+        "best_value": 0.7447262678285463,
+        "worst_seed": 49,
+        "worst_value": 0.6789814352582835
+      },
+      "FPR_at_95_TPR": {
+        "mean": 0.253,
+        "std_population": 0.004847679857416334,
+        "best_seed": 46,
+        "best_value": 0.26,
+        "worst_seed": 50,
+        "worst_value": 0.245
+      }
+    },
+    "proxy_only": {
+      "known_acceptance_rate": {
+        "mean": 0.9790000000000001,
+        "std_population": 0.003741657386773942,
+        "best_seed": 46,
+        "best_value": 0.9825,
+        "worst_seed": 49,
+        "worst_value": 0.9725
+      },
+      "known_rejection_rate": {
+        "mean": 0.021,
+        "std_population": 0.0037416573867739404,
+        "best_seed": 46,
+        "best_value": 0.0175,
+        "worst_seed": 49,
+        "worst_value": 0.0275
+      },
+      "HEDGES_unknown_recall": {
+        "mean": 1.0,
+        "std_population": 0.0,
+        "best_seed": 46,
+        "best_value": 1.0,
+        "worst_seed": 46,
+        "worst_value": 1.0
+      },
+      "DNA_Aeon_unknown_recall": {
+        "mean": 0.8099999999999999,
+        "std_population": 0.017888543819998284,
+        "best_seed": 48,
+        "best_value": 0.84,
+        "worst_seed": 50,
+        "worst_value": 0.79
+      },
+      "combined_unknown_recall": {
+        "mean": 0.905,
+        "std_population": 0.008944271909999166,
+        "best_seed": 48,
+        "best_value": 0.92,
+        "worst_seed": 50,
+        "worst_value": 0.895
+      },
+      "unknown_forced_known_rate": {
+        "mean": 0.095,
+        "std_population": 0.00894427190999916,
+        "best_seed": 48,
+        "best_value": 0.08,
+        "worst_seed": 50,
+        "worst_value": 0.105
+      },
+      "unknown_misclassified_as_BCH_rate": {
+        "mean": 0.084,
+        "std_population": 0.009695359714832657,
+        "best_seed": 48,
+        "best_value": 0.07,
+        "worst_seed": 50,
+        "worst_value": 0.1
+      },
+      "known_type_macro_f1": {
+        "mean": 0.7896337066927781,
+        "std_population": 0.0468234086743219,
+        "best_seed": 47,
+        "best_value": 0.8363117178114272,
+        "worst_seed": 46,
+        "worst_value": 0.7089023349252067
+      },
+      "known_type_macro_f1_change_from_closed": {
+        "mean": -0.015690765207096936,
+        "std_population": 0.0048129331373914,
+        "best_seed": 48,
+        "best_value": -0.01005296398615374,
+        "worst_seed": 49,
+        "worst_value": -0.022103041147164992
+      },
+      "AUROC": {
+        "mean": 0.9885925,
+        "std_population": 0.001654267209370985,
+        "best_seed": 48,
+        "best_value": 0.9903625,
+        "worst_seed": 49,
+        "worst_value": 0.9854875
+      },
+      "AUPR": {
+        "mean": 0.9808001621503479,
+        "std_population": 0.0027722626115511363,
+        "best_seed": 48,
+        "best_value": 0.9833520022673872,
+        "worst_seed": 49,
+        "worst_value": 0.9754681060774741
+      },
+      "FPR_at_95_TPR": {
+        "mean": 0.0785,
+        "std_population": 0.024062418831031926,
+        "best_seed": 49,
+        "best_value": 0.105,
+        "worst_seed": 48,
+        "worst_value": 0.035
+      }
+    },
+    "three_state": {
+      "known_acceptance_rate": {
+        "mean": 0.968,
+        "std_population": 0.007314369419163902,
+        "best_seed": 47,
+        "best_value": 0.975,
+        "worst_seed": 49,
+        "worst_value": 0.955
+      },
+      "known_rejection_rate": {
+        "mean": 0.032,
+        "std_population": 0.007314369419163896,
+        "best_seed": 47,
+        "best_value": 0.025,
+        "worst_seed": 49,
+        "worst_value": 0.045
+      },
+      "HEDGES_unknown_recall": {
+        "mean": 0.06200000000000001,
+        "std_population": 0.02785677655436824,
+        "best_seed": 49,
+        "best_value": 0.1,
+        "worst_seed": 50,
+        "worst_value": 0.03
+      },
+      "DNA_Aeon_unknown_recall": {
+        "mean": 0.09,
+        "std_population": 0.025298221281347028,
+        "best_seed": 47,
+        "best_value": 0.12,
+        "worst_seed": 50,
+        "worst_value": 0.06
+      },
+      "combined_unknown_recall": {
+        "mean": 0.076,
+        "std_population": 0.02222611077089287,
+        "best_seed": 49,
+        "best_value": 0.11,
+        "worst_seed": 50,
+        "worst_value": 0.045
+      },
+      "unknown_forced_known_rate": {
+        "mean": 0.095,
+        "std_population": 0.00894427190999916,
+        "best_seed": 48,
+        "best_value": 0.08,
+        "worst_seed": 50,
+        "worst_value": 0.105
+      },
+      "unknown_misclassified_as_BCH_rate": {
+        "mean": 0.084,
+        "std_population": 0.009695359714832657,
+        "best_seed": 48,
+        "best_value": 0.07,
+        "worst_seed": 50,
+        "worst_value": 0.1
+      },
+      "known_type_macro_f1": {
+        "mean": 0.7860361249480124,
+        "std_population": 0.04556959397239797,
+        "best_seed": 47,
+        "best_value": 0.8287121636519379,
+        "worst_seed": 46,
+        "worst_value": 0.7073267016225316
+      },
+      "known_type_macro_f1_change_from_closed": {
+        "mean": -0.019288346951862677,
+        "std_population": 0.002994785195037419,
+        "best_seed": 48,
+        "best_value": -0.015228947423006733,
+        "worst_seed": 50,
+        "worst_value": -0.02366091872940801
+      },
+      "AUROC": {
+        "mean": 0.9885925,
+        "std_population": 0.001654267209370985,
+        "best_seed": 48,
+        "best_value": 0.9903625,
+        "worst_seed": 49,
+        "worst_value": 0.9854875
+      },
+      "AUPR": {
+        "mean": 0.9808001621503479,
+        "std_population": 0.0027722626115511363,
+        "best_seed": 48,
+        "best_value": 0.9833520022673872,
+        "worst_seed": 49,
+        "worst_value": 0.9754681060774741
+      },
+      "FPR_at_95_TPR": {
+        "mean": 0.0785,
+        "std_population": 0.024062418831031926,
+        "best_seed": 49,
+        "best_value": 0.105,
+        "worst_seed": 48,
+        "worst_value": 0.035
+      },
+      "known_ecc_output_rate": {
+        "mean": 0.968,
+        "std_population": 0.007314369419163902,
+        "best_seed": 47,
+        "best_value": 0.975,
+        "worst_seed": 49,
+        "worst_value": 0.955
+      },
+      "uncertain_ecc_output_rate": {
+        "mean": 0.29233333333333333,
+        "std_population": 0.004546060565661949,
+        "best_seed": 50,
+        "best_value": 0.3,
+        "worst_seed": 47,
+        "worst_value": 0.28833333333333333
+      },
+      "unknown_ecc_output_rate": {
+        "mean": 0.03033333333333333,
+        "std_population": 0.0074087035902976215,
+        "best_seed": 49,
+        "best_value": 0.041666666666666664,
+        "worst_seed": 50,
+        "worst_value": 0.02
+      },
+      "unknown_risk_coverage": {
+        "mean": 0.905,
+        "std_population": 0.008944271909999166,
+        "best_seed": 48,
+        "best_value": 0.92,
+        "worst_seed": 50,
+        "worst_value": 0.895
+      },
+      "known_uncertain_rate": {
+        "mean": 0.024,
+        "std_population": 0.0073484692283495336,
+        "best_seed": 47,
+        "best_value": 0.0175,
+        "worst_seed": 49,
+        "worst_value": 0.0375
+      },
+      "unknown_uncertain_rate": {
+        "mean": 0.829,
+        "std_population": 0.020591260281973976,
+        "best_seed": 50,
+        "best_value": 0.85,
+        "worst_seed": 49,
+        "worst_value": 0.79
+      },
+      "decisive_coverage_ecc": {
+        "mean": 0.7076666666666667,
+        "std_population": 0.004546060565661969,
+        "best_seed": 47,
+        "best_value": 0.7116666666666667,
+        "worst_seed": 50,
+        "worst_value": 0.7
+      },
+      "decisive_accuracy_ecc": {
+        "mean": 0.9476948237500811,
+        "std_population": 0.004787480398851528,
+        "best_seed": 48,
+        "best_value": 0.9553990610328639,
+        "worst_seed": 50,
+        "worst_value": 0.9428571428571428
+      },
+      "manual_review_rate_all_archives": {
+        "mean": 0.25057142857142856,
+        "std_population": 0.003896623341995949,
+        "best_seed": 50,
+        "best_value": 0.2571428571428571,
+        "worst_seed": 47,
+        "worst_value": 0.24714285714285714
+      },
+      "unknown_direct_known_rate": {
+        "mean": 0.095,
+        "std_population": 0.00894427190999916,
+        "best_seed": 48,
+        "best_value": 0.08,
+        "worst_seed": 50,
+        "worst_value": 0.105
+      }
+    },
+    "G_all": {
+      "known_acceptance_rate": {
+        "mean": 0.9790000000000001,
+        "std_population": 0.003741657386773942,
+        "best_seed": 46,
+        "best_value": 0.9825,
+        "worst_seed": 49,
+        "worst_value": 0.9725
+      },
+      "known_rejection_rate": {
+        "mean": 0.021,
+        "std_population": 0.0037416573867739404,
+        "best_seed": 46,
+        "best_value": 0.0175,
+        "worst_seed": 49,
+        "worst_value": 0.0275
+      },
+      "HEDGES_unknown_recall": {
+        "mean": 1.0,
+        "std_population": 0.0,
+        "best_seed": 46,
+        "best_value": 1.0,
+        "worst_seed": 46,
+        "worst_value": 1.0
+      },
+      "DNA_Aeon_unknown_recall": {
+        "mean": 0.8099999999999999,
+        "std_population": 0.017888543819998284,
+        "best_seed": 48,
+        "best_value": 0.84,
+        "worst_seed": 50,
+        "worst_value": 0.79
+      },
+      "combined_unknown_recall": {
+        "mean": 0.905,
+        "std_population": 0.008944271909999166,
+        "best_seed": 48,
+        "best_value": 0.92,
+        "worst_seed": 50,
+        "worst_value": 0.895
+      },
+      "unknown_forced_known_rate": {
+        "mean": 0.095,
+        "std_population": 0.00894427190999916,
+        "best_seed": 48,
+        "best_value": 0.08,
+        "worst_seed": 50,
+        "worst_value": 0.105
+      },
+      "unknown_misclassified_as_BCH_rate": {
+        "mean": 0.084,
+        "std_population": 0.009695359714832657,
+        "best_seed": 48,
+        "best_value": 0.07,
+        "worst_seed": 50,
+        "worst_value": 0.1
+      },
+      "known_type_macro_f1": {
+        "mean": 0.7896337066927781,
+        "std_population": 0.0468234086743219,
+        "best_seed": 47,
+        "best_value": 0.8363117178114272,
+        "worst_seed": 46,
+        "worst_value": 0.7089023349252067
+      },
+      "known_type_macro_f1_change_from_closed": {
+        "mean": -0.015690765207096936,
+        "std_population": 0.0048129331373914,
+        "best_seed": 48,
+        "best_value": -0.01005296398615374,
+        "worst_seed": 49,
+        "worst_value": -0.022103041147164992
+      },
+      "AUROC": {
+        "mean": 0.9885925,
+        "std_population": 0.001654267209370985,
+        "best_seed": 48,
+        "best_value": 0.9903625,
+        "worst_seed": 49,
+        "worst_value": 0.9854875
+      },
+      "AUPR": {
+        "mean": 0.9808001621503479,
+        "std_population": 0.0027722626115511363,
+        "best_seed": 48,
+        "best_value": 0.9833520022673872,
+        "worst_seed": 49,
+        "worst_value": 0.9754681060774741
+      },
+      "FPR_at_95_TPR": {
+        "mean": 0.0785,
+        "std_population": 0.024062418831031926,
+        "best_seed": 49,
+        "best_value": 0.105,
+        "worst_seed": 48,
+        "worst_value": 0.035
+      }
+    }
+  },
+  "stage6_reference": {
+    "closed_set": {
+      "known_macro_f1": 0.6894768913064252
+    },
+    "energy_only": {
+      "known_acceptance_rate": 0.985,
+      "known_no_ecc_rate": 0.0,
+      "known_proxy_rejection_rate": 0.015,
+      "known_type_acceptance": {
+        "BCH": 0.9466666666666667,
+        "Convolutional": 0.9933333333333333,
+        "LDPC": 1.0,
+        "Polar": 1.0
+      },
+      "closed_macro_f1": 0.6894768913064252,
+      "known_type_macro_f1": 0.6836979209228037,
+      "known_type_macro_f1_change_from_closed": -0.005778970383621518,
+      "no_ecc_specificity": 1.0,
+      "HEDGES_unknown_recall": 0.07333333333333333,
+      "DNA_Aeon_unknown_recall": 0.12,
+      "combined_unknown_recall": 0.09666666666666666,
+      "unknown_direct_known_rate": 0.9033333333333333,
+      "unknown_misclassified_as_BCH_rate": 0.8866666666666667,
+      "AUROC": 0.8945722222222222,
+      "AUPR": 0.7327356786610185,
+      "FPR_at_95_TPR": 0.25,
+      "labels": [
+        "no_ecc",
+        "unknown_ecc",
+        "BCH",
+        "Convolutional",
+        "LDPC",
+        "Polar"
+      ],
+      "six_class_confusion_matrix": [
+        [
+          300,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          29,
+          266,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          8,
+          63,
+          78,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          147,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          150,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          87,
+          63
+        ]
+      ]
+    },
+    "proxy_only": {
+      "known_acceptance_rate": 0.9733333333333334,
+      "known_no_ecc_rate": 0.0,
+      "known_proxy_rejection_rate": 0.02666666666666667,
+      "known_type_acceptance": {
+        "BCH": 0.9,
+        "Convolutional": 0.9933333333333333,
+        "LDPC": 1.0,
+        "Polar": 1.0
+      },
+      "closed_macro_f1": 0.6894768913064252,
+      "known_type_macro_f1": 0.6718016776312116,
+      "known_type_macro_f1_change_from_closed": -0.01767521367521363,
+      "no_ecc_specificity": 1.0,
+      "HEDGES_unknown_recall": 0.9933333333333333,
+      "DNA_Aeon_unknown_recall": 0.8066666666666666,
+      "combined_unknown_recall": 0.9,
+      "unknown_direct_known_rate": 0.1,
+      "unknown_misclassified_as_BCH_rate": 0.08333333333333333,
+      "AUROC": 0.9907944444444444,
+      "AUPR": 0.9843966597456334,
+      "FPR_at_95_TPR": 0.058333333333333334,
+      "labels": [
+        "no_ecc",
+        "unknown_ecc",
+        "BCH",
+        "Convolutional",
+        "LDPC",
+        "Polar"
+      ],
+      "six_class_confusion_matrix": [
+        [
+          300,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          270,
+          25,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          15,
+          56,
+          78,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          147,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          150,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          87,
+          63
+        ]
+      ]
+    },
+    "three_state": {
+      "known_rate": 0.9616666666666667,
+      "known_uncertain": 0.035,
+      "unknown_recall": 0.09666666666666666,
+      "unknown_uncertain": 0.8033333333333333
+    }
+  },
+  "statistical_unit": "archive"
+}

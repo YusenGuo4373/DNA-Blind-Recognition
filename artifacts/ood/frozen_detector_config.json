@@ -1,0 +1,29 @@
+{
+  "frozen_before_confirmation": true,
+  "feature_blocks": [
+    "observed_read_sequence_structure",
+    "embedding128_mean_std",
+    "rich_logit_statistics"
+  ],
+  "classifier": "standardized_PCA_L2_logistic",
+  "selected": {
+    "dimensions": 16,
+    "ridge": 1.0
+  },
+  "thresholds": {
+    "0.98": {
+      "energy": -1.5266819876166224,
+      "proxy": 0.8268975481068935
+    },
+    "0.95": {
+      "energy": -1.539298342338252,
+      "proxy": 0.7873319605719291
+    },
+    "0.93": {
+      "energy": -1.5395283335421228,
+      "proxy": 0.7871561861563957
+    }
+  },
+  "combination": "energy_proxy_consensus_three_state",
+  "HEDGES_DNA_Aeon_used": false
+}

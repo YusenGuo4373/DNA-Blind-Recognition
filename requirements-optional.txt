@@ -1,0 +1,5 @@
+h5py>=3.10
+matplotlib>=3.8
+pandas>=2.1
+scikit-learn>=1.4
+scikit-commpy>=0.8
