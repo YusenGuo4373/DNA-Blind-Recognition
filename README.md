@@ -81,6 +81,9 @@ and the paper DOI must be completed before the public release.
 
 ## License
 
-No project license has yet been selected. Public redistribution must wait until
-the project license and the status of the pinned upstream source have been
-resolved; see `LICENSE_PENDING.md`.
+Project-owned source code in this repository is released under
+the MIT License. See `LICENSE`.
+
+Third-party software remains subject to its respective licenses.
+The unlicensed upstream `zhouph0313/DNA` source code is not
+redistributed in this repository.
